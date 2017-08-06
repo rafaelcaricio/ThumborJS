@@ -8,7 +8,8 @@ Using ThumborJS is pretty simple, all you have to do is create a CryptoURL insta
 proper key and original image URL and start customizing it.
 
 ```javascript
-CryptoURL crypto = new CryptoURL('my-security-key', 'http://my.server.com/path/to/my/image.jpg');
+var ThumborJS = require('ThumborJS');
+var crypto = new ThumborJS.CryptoURL('my-security-key', 'http://my.server.com/path/to/my/image.jpg');
 var encryptedURL = crypto.resize(300, 200).withSmartCropping().toString();
 console.log(encrypedURL);
 // /LFS8rnXScOTlQvOJBE8i55p_LwzRr7aEgLYtDBpyAwUTwd2x1TsZr6yOHZpBF_YF/my.server.com/some/path/to/image.jpg
