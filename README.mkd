@@ -1,0 +1,55 @@
+# ThumborJS
+
+Thumbor Javascript (ThumborJS) is a library to generate encrypted [Thumbor](https://github.com/globocom/thumbor/) URLs. 
+
+## Usage
+
+Using ThumborJS is pretty simple, all you have to do is create a CryptoURL instance with the 
+proper key and original image URL and start customizing it.
+
+```javascript
+CryptoURL crypto = new CryptoURL('my-security-key', 'http://my.server.com/path/to/my/image.jpg');
+var encryptedURL = crypto.resize(300, 200).withSmartCropping().toString();
+console.log(encrypedURL);
+// /LFS8rnXScOTlQvOJBE8i55p_LwzRr7aEgLYtDBpyAwUTwd2x1TsZr6yOHZpBF_YF/my.server.com/some/path/to/image.jpg
+```
+
+## Development
+
+You need to install [ezcrypto](https://github.com/ElmerZhang/ezcrypto) and [VowsJS](http://vowsjs.org/). Just run:
+
+```bash
+$ npm install ezcrypto vows
+```
+
+Then you can run all tests.
+
+```bash
+$ make vows
+```
+
+# License
+
+ThumborJS is licensed under the MIT License:
+
+> The MIT License
+
+> Copyright (c) 2012 Rafael Carício <rafael@caricio.com>
+
+> Permission is hereby granted, free of charge, to any person obtaining a copy
+> of this software and associated documentation files (the "Software"), to deal
+> in the Software without restriction, including without limitation the rights
+> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+> copies of the Software, and to permit persons to whom the Software is
+> furnished to do so, subject to the following conditions:
+
+> The above copyright notice and this permission notice shall be included in
+> all copies or substantial portions of the Software.
+
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+> THE SOFTWARE.

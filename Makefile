@@ -1,0 +1,2 @@
+vows:
+	node test/*

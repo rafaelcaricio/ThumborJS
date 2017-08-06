@@ -1,0 +1,100 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ThumborJS",
+        "scope": null,
+        "escapedName": "ThumborJS",
+        "name": "ThumborJS",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/rafaelcaricio/development/thumborjs_revival"
+    ]
+  ],
+  "_defaultsLoaded": true,
+  "_engineSupported": true,
+  "_from": "ThumborJS@latest",
+  "_id": "ThumborJS@0.1.0",
+  "_inCache": true,
+  "_location": "/ThumborJS",
+  "_nodeVersion": "v0.6.11",
+  "_npmUser": {
+    "name": "rafaelcaricio",
+    "email": "rafael@caricio.com"
+  },
+  "_npmVersion": "1.1.18",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ThumborJS",
+    "scope": null,
+    "escapedName": "ThumborJS",
+    "name": "ThumborJS",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/ThumborJS/-/ThumborJS-0.1.0.tgz",
+  "_shasum": "0540e56fc6bbc928553e46051125115ba1c17936",
+  "_shrinkwrap": null,
+  "_spec": "ThumborJS",
+  "_where": "/Users/rafaelcaricio/development/thumborjs_revival",
+  "author": {
+    "name": "Rafael Carício",
+    "email": "rafael@caricio.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rafaelcaricio/ThumborJS/issues"
+  },
+  "contributors": [],
+  "dependencies": {
+    "ezcrypto": "~0.0.3"
+  },
+  "description": "An extension library to generate encrypted URLs for Thumbor using Node.js",
+  "devDependencies": {
+    "vows": "~0.6.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "0540e56fc6bbc928553e46051125115ba1c17936",
+    "tarball": "https://registry.npmjs.org/ThumborJS/-/ThumborJS-0.1.0.tgz"
+  },
+  "engines": {
+    "node": ">= 0.6.11"
+  },
+  "homepage": "https://github.com/rafaelcaricio/ThumborJS#readme",
+  "keywords": [
+    "imaging service",
+    "thumbor",
+    "api",
+    "client"
+  ],
+  "licenses": [
+    {
+      "type": "MIT License",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "main": "./src",
+  "maintainers": [
+    {
+      "name": "rafaelcaricio",
+      "email": "rafael@caricio.com"
+    }
+  ],
+  "name": "ThumborJS",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rafaelcaricio/ThumborJS.git"
+  },
+  "scripts": {
+    "test": "make vows"
+  },
+  "version": "0.1.0"
+}
