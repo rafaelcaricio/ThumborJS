@@ -1,7 +1,7 @@
 # ThumborJS
 
-.. note:: Unmaintained project!
-   This project is not maintained. We recommend to usage of [ThumborJS](https://github.com/OOShoppingnl/thumborjs).
+# Unmaintained project!
+## This project is not maintained. We recommend to usage of [ThumborJS](https://github.com/OOShoppingnl/thumborjs).
 
 Thumbor Javascript (ThumborJS) is a library to generate encrypted [Thumbor](https://github.com/globocom/thumbor/) URLs. 
 
